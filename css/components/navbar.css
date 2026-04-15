@@ -1,11 +1,14 @@
 .navbar {
-    position: relative;
+    background-color: var(--bg-color);
+    position: fixed;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
     border-bottom: 1px solid var(--secondary-color);
     z-index: 100;
+    top: 0;
 }
 
 .navbar__logo {
@@ -24,12 +27,12 @@
 
 .navbar__menu--active {
     background-color: var(--bg-color);
-    position: absolute;
+    position: fixed;
     display: flex;
-    top: calc(100% + 1px);
+    top: 116px;
     left: 0;
     width: 100%;
-    height: calc(100vh - 100% - 1px);
+    min-height: calc(100dvh - 116px);
     padding: 80px;
 }
 

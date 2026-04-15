@@ -21,4 +21,5 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    padding-top: 117px;
 }
