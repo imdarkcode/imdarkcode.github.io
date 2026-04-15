@@ -6,4 +6,5 @@ menuButton.addEventListener('click', () => {
     menu.classList.toggle('navbar__menu--active');
     menuIcon.classList.toggle('iconoir-menu');
     menuIcon.classList.toggle('iconoir-xmark');
+    menu.classList.toggle('animate__fadeInRight');
 });

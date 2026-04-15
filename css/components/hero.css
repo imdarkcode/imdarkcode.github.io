@@ -1,6 +1,7 @@
 .hero {
     padding: 80px;
     margin-top: auto;
+    position: relative;
 }
 
 .hero__content {
