@@ -1,0 +1,121 @@
+.contact {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__title {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -2.5%;
+    font-weight: 900;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.contact__list {
+    display: flex;
+    gap: 80px;
+}
+
+.contact__list-title {
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -2.5%;
+    font-weight: 900;
+}
+
+.contact__list-text {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 70ch;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.contact__link {
+    display: flex;
+    gap: 80px;
+}
+
+.contact__link-item {
+    font-size: 24px;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-flex
+}
+
+.contact__link-item-icon {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1280px) {
+    .contact__title {
+        font-size: 48px;
+        padding-bottom: 32px;
+        margin-bottom: 64px;
+    }
+
+    .contact__list {
+        gap: 64px;
+    }
+
+    .contact__list-title {
+        font-size: 24px;
+    }
+
+    .contact__list-text, .contact__link-item {
+        font-size: 20px;
+    }
+
+    .contact__link {
+        gap: 64px;
+    }
+
+    .contact__link-item-icon {
+        font-size: 24px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        padding: 40px;
+    }
+
+    .contact__title {
+        font-size: 32px;
+        padding-bottom: 24px;
+        margin-bottom: 40px;
+    }
+
+    .contact__content {
+        flex-direction: column;
+    }
+
+    .contact__list-title {
+        font-size: 20px;
+    }
+
+    .contact__link {
+        gap: 40px;
+    }
+
+    .contact__list-text, .contact__link-item {
+        font-size: 16px;
+    }
+
+    .contact__link-item-icon {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+}

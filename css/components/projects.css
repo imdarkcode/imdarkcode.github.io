@@ -1,0 +1,135 @@
+.projects {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__title {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -2.5%;
+    font-weight: 900;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.project__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_item-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project_item-right {
+    display: flex;
+    gap: 48px;
+}
+
+.project__title {
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: -2.5%;
+    font-weight: 900;
+}
+
+.project__category {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 70ch;
+    font-weight: 400;
+}
+
+.project__date {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 70ch;
+    font-weight: 400;
+}
+
+.project__link {
+    font-size: 32px;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-flex
+}
+
+@media (max-width: 1280px) {
+    .projects__title {
+        font-size: 48px;
+        padding-bottom: 32px;
+        margin-bottom: 64px;
+    }
+
+    .project_item-left {
+        gap: 16px;
+    }
+
+    .project_item-right {
+        gap: 40px;
+    }
+
+    .project__title {
+        font-size: 24px;
+    }
+
+    .project__category {
+        font-size: 20px;
+    }
+
+    .project__date {
+        font-size: 20px;
+    }
+
+    .project__link {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .projects {
+        padding: 40px;
+    }
+
+    .projects__title {
+        font-size: 32px;
+        padding-bottom: 24px;
+        margin-bottom: 40px;
+    }
+
+    .project_item-left {
+        gap: 12px;
+    }
+
+    .project_item-right {
+        gap: 32px;
+    }
+
+    .project__title {
+        font-size: 20px;
+    }
+
+    .project__category {
+        font-size: 16px;
+    }
+
+    .project__date {
+        font-size: 16px;
+    }
+
+    .project__link {
+        font-size: 20px;
+    }
+}

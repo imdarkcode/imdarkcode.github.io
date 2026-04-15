@@ -1,0 +1,90 @@
+.about {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title {
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: -2.5%;
+    font-weight: 900;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.about__description {
+    font-size: 24px;
+    line-height: 1.5;
+    max-width: 70ch;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about__resume-link {
+    font-size: 24px;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-flex
+}
+
+.about__resume-icon {
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1280px) {
+    .about__title {
+        font-size: 48px;
+        padding-bottom: 32px;
+        margin-bottom: 64px;
+    }
+
+    .about__description {
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+
+    .about__resume-link {
+        font-size: 20px;
+    }
+
+    .about__resume-icon {
+        font-size: 24px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        padding: 40px;
+    }
+
+    .about__title {
+        font-size: 32px;
+        padding-bottom: 24px;
+        margin-bottom: 40px;
+    }
+
+    .about__description {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .about__resume-link {
+        font-size: 16px;
+    }
+
+    .about__resume-icon {
+        font-size: 20px;
+        margin-left: 16px;
+    }
+}
